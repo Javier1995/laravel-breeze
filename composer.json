@@ -49,7 +49,8 @@
         ],
         "vm:start": "./vendor/bin/sail up -d",
         "vm:down": "./vendor/bin/sail down -v",
-        "vm:stop": "./vendor/bin/sail stop"
+        "vm:stop": "./vendor/bin/sail stop",
+        "db:migrate": "./vendor/bin/sail artisan migrate"
     },
     "extra": {
         "laravel": {
